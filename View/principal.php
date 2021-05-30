@@ -55,7 +55,11 @@
 
     </nav>
     <div class="w3-padding-large" id="main">
-</div>
+        <header class="w3-container w3-padding-32 w3-center " id="home">
+                <img src="../img/logo.jpg" alt="Logo" class="w3-image" width="50%">
+                        <h1 class="w3-text-cyan">Banco de Talentos</h1>
+        </header>
+    </div>
 
 </body>
 
