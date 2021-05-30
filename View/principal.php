@@ -61,113 +61,255 @@
         </header>
     </div>
     <div class="w3-padding-128 w3-content w3-text-grey" id="dPessoais">
-    <div>
-        <h2 class="w3-text-cyan">Dados Pessoais</h2>
-    </div>
-    <form action="" method="post" class=" w3-row w3-light-grey w3-text-blue w3-margin" style="width:70%;">
-        <input class="w3-input w3-border w3-round-large" name="txtID" type="hidden" value="">
-        <div class="w3-row w3-section">
-            <div class="w3-col" style="width:11%;">
-                <i class="w3-xxlarge fa fa-user"></i>
-            </div>
-            <div class="w3-rest">
-                <input class="w3-input w3-border w3-round-large" name="txtNome" type="text" placeholder="Nome Completo" value="">
-            </div>
+        <div>
+            <h2 class="w3-text-cyan">Dados Pessoais</h2>
         </div>
-        <div class="w3-row w3-section">
-            <div class="w3-col" style="width:11%;">
-                <i class="w3-xxlarge fa fa-calendar"></i>
+        <form action="" method="post" class=" w3-row w3-light-grey w3-text-blue w3-margin" style="width:70%;">
+            <input class="w3-input w3-border w3-round-large" name="txtID" type="hidden" value="">
+            <div class="w3-row w3-section">
+                <div class="w3-col" style="width:11%;">
+                    <i class="w3-xxlarge fa fa-user"></i>
+                </div>
+                <div class="w3-rest">
+                    <input class="w3-input w3-border w3-round-large" name="txtNome" type="text" placeholder="Nome Completo" value="">
+                </div>
             </div>
-            <div class="w3-rest">
-                <input class="w3-input w3-border w3-round-large" name="txtData" type="date" placeholder="" value="">
+            <div class="w3-row w3-section">
+                <div class="w3-col" style="width:11%;">
+                    <i class="w3-xxlarge fa fa-calendar"></i>
+                </div>
+                <div class="w3-rest">
+                    <input class="w3-input w3-border w3-round-large" name="txtData" type="date" placeholder="" value="">
+                </div>
             </div>
-        </div>
-        <div class="w3-row w3-section">
-            <div class="w3-col" style="width:11%;">
-                <i class="w3-xxlarge fa fa-drivers-license"></i>
+            <div class="w3-row w3-section">
+                <div class="w3-col" style="width:11%;">
+                    <i class="w3-xxlarge fa fa-drivers-license"></i>
+                </div>
+                <div class="w3-rest">
+                    <input class="w3-input w3-border w3-round-large" name="txtCPF" type="text" placeholder="CPF: 33333333333" value="">
+                </div>
             </div>
-            <div class="w3-rest">
-                <input class="w3-input w3-border w3-round-large" name="txtCPF" type="text" placeholder="CPF: 33333333333" value="">
+            <div class="w3-row w3-section">
+                <div class="w3-col" style="width:11%;">
+                    <i class="w3-xxlarge fa fa-envelope-o"></i>
+                </div>
+                <div class="w3-rest">
+                    <input class="w3-input w3-border w3-round-large" name="txtEmail" type="text" placeholder="Email" value="">
+                </div>
             </div>
-        </div>
-        <div class="w3-row w3-section">
-            <div class="w3-col" style="width:11%;">
-                <i class="w3-xxlarge fa fa-envelope-o"></i>
-            </div>
-            <div class="w3-rest">
-                <input class="w3-input w3-border w3-round-large" name="txtEmail" type="text" placeholder="Email" value="">
-            </div>
-        </div>
 
-        <div class="w3-row w3-section">
-            <div class="w3-center" style="">
-                <button name="btnAtualizar" class="w3-button w3-block w3-margin w3-blue w3-cell 
+            <div class="w3-row w3-section">
+                <div class="w3-center" style="">
+                    <button name="btnAtualizar" class="w3-button w3-block w3-margin w3-blue w3-cell 
                 w3-round-large" style="width: 90%;">Atualizar</button>
-            </div>
-        </div>
-    </form>
-    </div>
-    
-    <div class="w3-padding-128 w3-content w3-text-grey" id="formacao">
-    <div>
-        <h2 class="w3-text-cyan">Formação</h2>
-    </div>
-    <form action="" method="post" class=" w3-row w3-light-grey w3-text-blue w3-margin" style="width: 70%;">
-        <div class="w3-row w3-center">
-            <div class="w3-col" style="width:50%;">Data Inicial</div>
-            <div class="w3-res" style="">Data Final</div>
-        </div>
-        <div class="w3-row w3-section">
-            <div class="w3-row w3-section w3-col" style="width:45%;">
-                <div class="w3-col" style="width:15%;">
-                    <i class="w3-xxlarge fa fa-calendar"></i>
-                </div>
-                <div class="w3-rest">
-                    <input class="w3-input w3-border w3-round-large" name="txtInicioFA" type="date" placeholder="">
                 </div>
             </div>
-            <div class="w3-row w3-section w3-rest" style="">
+        </form>
+    </div>
 
-                <div class="w3-col w3-margin-left" style="width:13%;">
-                    <i class="w3-xxlarge fa fa-calendar"></i>
-                </div>
-                <div class="w3-rest">
-                    <input class="w3-input w3-border w3-round-large" name="txtFimFA" type="date" placeholder="">
-                </div>
+    <div class="w3-padding-128 w3-content w3-text-grey" id="formacao">
+        <div>
+            <h2 class="w3-text-cyan">Formação</h2>
+        </div>
+        <form action="" method="post" class=" w3-row w3-light-grey w3-text-blue w3-margin" style="width: 70%;">
+            <div class="w3-row w3-center">
+                <div class="w3-col" style="width:50%;">Data Inicial</div>
+                <div class="w3-res" style="">Data Final</div>
             </div>
-            <div>
-                <div class="w3-row w3-section">
-                    <div class="w3-col" style="width:7%;">
-                        <i class="w3-xxlarge fa fa-align-justify"></i>
+            <div class="w3-row w3-section">
+                <div class="w3-row w3-section w3-col" style="width:45%;">
+                    <div class="w3-col" style="width:15%;">
+                        <i class="w3-xxlarge fa fa-calendar"></i>
                     </div>
                     <div class="w3-rest">
-                        <input class="w3-input w3-border w3-round-large" name="txtDescFA" type="text" placeholder="Descrição: Ex.: Técnico em Desenvolvimento de Sistemas - Centro Paula Souza">
+                        <input class="w3-input w3-border w3-round-large" name="txtInicioFA" type="date" placeholder="">
                     </div>
                 </div>
+                <div class="w3-row w3-section w3-rest" style="">
 
-                <div class="w3-row w3-section">
-                    <div class="w3-center" style="">
-                        <button name="btnAddFormacao" class="w3-button w3-block w3-blue w3-cell w3-round-large" style="width: 90%;">Adicionar Formação</button>
+                    <div class="w3-col w3-margin-left" style="width:13%;">
+                        <i class="w3-xxlarge fa fa-calendar"></i>
+                    </div>
+                    <div class="w3-rest">
+                        <input class="w3-input w3-border w3-round-large" name="txtFimFA" type="date" placeholder="">
                     </div>
                 </div>
-    </form>
-    <div class="w3-container">
-    
-        <table class="w3-table-all w3-centered ">
-            <thead>
-                <tr class="w3-center w3-blue">
-                    <th>Início</th>
-                    <th>Fim</th>
-                    <th>Descrição</th>
-                    <th>Apagar</th>
-                </tr>
+                <div>
+                    <div class="w3-row w3-section">
+                        <div class="w3-col" style="width:7%;">
+                            <i class="w3-xxlarge fa fa-align-justify"></i>
+                        </div>
+                        <div class="w3-rest">
+                            <input class="w3-input w3-border w3-round-large" name="txtDescFA" type="text" placeholder="Curso">
+                        </div>
+                        <div>
+                            <br>
+                            <div class="w3-rest">
+                                <input class="w3-input w3-border w3-round-large" name="txtDescFA" type="text" placeholder="Instituição de Ensino">
+                            </div>
+                        </div>
+
+                        <div class="w3-row w3-section">
+                            <div class="w3-center" style="">
+                                <button name="btnAddFormacao" class="w3-button w3-block w3-blue w3-cell w3-round-large" style="width: 90%;">Adicionar Formação</button>
+                            </div>
+                        </div>
+        </form>
+        <div class="w3-container">
+
+            <table class="w3-table-all w3-centered ">
                 <thead>
-        </table>
+                    <tr class="w3-center w3-blue">
+                        <th>Início</th>
+                        <th>Fim</th>
+                        <th>Descrição</th>
+                        <th>Apagar</th>
+                    </tr>
+                    <thead>
+            </table>
+
+        </div>
+    </div>
+    </div>
+    <br> <br> <br>
+    <div class="w3-padding-128 w3-content w3-text-grey" id="eProfissional">
+        <h2 class="w3-text-cyan">Experiência Profissional</h2>
+        <form action="/Controller/navegacao.php" method="post" class=" w3-row  w3-light-grey w3-text-blue w3-margin" style="width: 70%;">
+            <div class="w3-row w3-center">
+                <div class="w3-col" style="width:50%;">
+                    Data Inicial
+                </div>
+                <div class="w3-res" style="">
+                    Data Final
+                </div>
+            </div>
+            <div class="w3-row w3-section">
+                <div class="w3-row w3-section w3-col" style="width:45%;">
+                    <div class="w3-col" style="width:15%;">
+                        <i class="w3-xxlarge fa fa-calendar"></i>
+                    </div>
+                    <div class="w3-rest">
+                        <input class="w3-input w3-border w3-round-large" name="txtInicioEP" type="date" placeholder="">
+                    </div>
+                </div>
+                <div class="w3-row w3-section w3-rest" style="">
+
+                    <div class="w3-col w3-margin-left" style="width:13%;">
+                        <i class="w3-xxlarge  fa fa-calendar"></i>
+                    </div>
+                    <div class="w3-rest">
+                        <input class="w3-input w3-border w3-round-large" name="txtFimEP" type="date" placeholder="">
+                    </div>
+                </div>
+                <div>
+                    <div class="w3-row w3-section">
+                        <div class="w3-col" style="width:7%;">
+                            <i class="w3-xxlarge fa fa-align-justify"></i>
+                        </div>
+                        <div class="w3-rest">
+                            <input class="w3-input w3-border w3-round-large" name="txtEmpEP" type="text" placeholder="Empresa">
+                        </div>
+                    </div>
+                    <div class="w3-row w3-section">
+                        <div class="w3-col" style="width:7%;">
+                            <i class="w3-xxlarge fa fa-align-justify"></i>
+                        </div>
+                        <div class="w3-rest">
+                            <input class="w3-input w3-border w3-round-large" name="txtDescEP" type="text" placeholder="Descrição Cargo e atividades">
+                        </div>
+                    </div>
+                    <div class="w3-row w3-section">
+                        <div class="w3-center" style="">
+                            <button name="btnAddEP" class="w3-button w3-block w3-blue w3-cell w3-round-large" style="width: 90%;">Adicionar Experiência</button>
+                        </div>
+                    </div>
+        </form>
+
+        <div class="w3-container">
+            <table class="w3-table-all w3-centered">
+                <thead>
+                    <tr class="w3-center w3-blue">
+                        <th>Início</th>
+                        <th>Fim</th>
+                        <th>Empresa</th>
+                        <th>Descrição</th>
+                        <th>Apagar</th>
+                    </tr>
+                    <thead>
+            </table>
+        </div>
     </div>
     </div>
 
+    <br> <br> <br>
+    <div class="w3-padding-128 w3-content w3-text-grey" id="eProfissional">
+        <h2 class="w3-text-cyan">Cursos Extras</h2>
+        <form action="/Controller/navegacao.php" method="post" class=" w3-row  w3-light-grey w3-text-blue w3-margin" style="width: 70%;">
+            <div class="w3-row w3-center">
+                <div class="w3-col" style="width:50%;">
+                    Data Inicial
+                </div>
+                <div class="w3-res" style="">
+                    Data Final
+                </div>
+            </div>
+            <div class="w3-row w3-section">
+                <div class="w3-row w3-section w3-col" style="width:45%;">
+                    <div class="w3-col" style="width:15%;">
+                        <i class="w3-xxlarge fa fa-calendar"></i>
+                    </div>
+                    <div class="w3-rest">
+                        <input class="w3-input w3-border w3-round-large" name="txtInicioEP" type="date" placeholder="">
+                    </div>
+                </div>
+                <div class="w3-row w3-section w3-rest" style="">
 
+                    <div class="w3-col w3-margin-left" style="width:13%;">
+                        <i class="w3-xxlarge  fa fa-calendar"></i>
+                    </div>
+                    <div class="w3-rest">
+                        <input class="w3-input w3-border w3-round-large" name="txtFimEP" type="date" placeholder="">
+                    </div>
+                </div>
+                <div>
+                    <div class="w3-row w3-section">
+                        <div class="w3-col" style="width:7%;">
+                            <i class="w3-xxlarge fa fa-align-justify"></i>
+                        </div>
+                        <div class="w3-rest">
+                            <input class="w3-input w3-border w3-round-large" name="txtEmpEP" type="text" placeholder="Descrição do Curso">
+                        </div>
+                    </div>
+                    <div class="w3-row w3-section">
+                        <div class="w3-col" style="width:7%;">
+                            <i class="w3-xxlarge fa fa-align-justify"></i>
+                        </div>
+                        <div class="w3-rest">
+                            <input class="w3-input w3-border w3-round-large" name="txtDescEP" type="text" placeholder="Instituição de Ensino">
+                        </div>
+                    </div>
+                    <div class="w3-row w3-section">
+                        <div class="w3-center" style="">
+                            <button name="btnAddEP" class="w3-button w3-block w3-blue w3-cell w3-round-large" style="width: 90%;">Adicionar Curso</button>
+                        </div>
+                    </div>
+        </form>
 
+        <div class="w3-container">
+            <table class="w3-table-all w3-centered">
+                <thead>
+                    <tr class="w3-center w3-blue">
+                        <th>Início</th>
+                        <th>Fim</th>
+                        <th>Descrição</th>
+                        <th>Apagar</th>
+                    </tr>
+                    <thead>
+            </table>
+        </div>
+    </div>
+    </div>
 
 
 </body>
