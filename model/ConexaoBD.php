@@ -3,7 +3,7 @@ Class ConexaoBD {
 
 private $serverName = "localhost";
 private $userName = "root";
-private $password = "usbw"; //senha para conexão ao banco de dados;
+private $password = "";
 private $dbName = "bd_curriculos";
 }
 
