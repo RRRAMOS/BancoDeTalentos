@@ -243,7 +243,7 @@
     </div>
 
     <br> <br> <br>
-    <div class="w3-padding-128 w3-content w3-text-grey" id="eProfissional">
+    <div class="w3-padding-128 w3-content w3-text-grey" id="oFormacao">
         <h2 class="w3-text-cyan">Cursos Extras</h2>
         <form action="/Controller/navegacao.php" method="post" class=" w3-row  w3-light-grey w3-text-blue w3-margin" style="width: 70%;">
             <div class="w3-row w3-center">
@@ -260,7 +260,7 @@
                         <i class="w3-xxlarge fa fa-calendar"></i>
                     </div>
                     <div class="w3-rest">
-                        <input class="w3-input w3-border w3-round-large" name="txtInicioEP" type="date" placeholder="">
+                        <input class="w3-input w3-border w3-round-large" name="txtInicioCE" type="date" placeholder="">
                     </div>
                 </div>
                 <div class="w3-row w3-section w3-rest" style="">
@@ -269,7 +269,7 @@
                         <i class="w3-xxlarge  fa fa-calendar"></i>
                     </div>
                     <div class="w3-rest">
-                        <input class="w3-input w3-border w3-round-large" name="txtFimEP" type="date" placeholder="">
+                        <input class="w3-input w3-border w3-round-large" name="txtFimCE" type="date" placeholder="">
                     </div>
                 </div>
                 <div>
@@ -278,7 +278,7 @@
                             <i class="w3-xxlarge fa fa-align-justify"></i>
                         </div>
                         <div class="w3-rest">
-                            <input class="w3-input w3-border w3-round-large" name="txtEmpEP" type="text" placeholder="Descrição do Curso">
+                            <input class="w3-input w3-border w3-round-large" name="txtDescCursExtra" type="text" placeholder="Descrição do Curso">
                         </div>
                     </div>
                     <div class="w3-row w3-section">
@@ -286,12 +286,12 @@
                             <i class="w3-xxlarge fa fa-align-justify"></i>
                         </div>
                         <div class="w3-rest">
-                            <input class="w3-input w3-border w3-round-large" name="txtDescEP" type="text" placeholder="Instituição de Ensino">
+                            <input class="w3-input w3-border w3-round-large" name="txtInstEnsCursExtra" type="text" placeholder="Instituição de Ensino">
                         </div>
                     </div>
                     <div class="w3-row w3-section">
                         <div class="w3-center" style="">
-                            <button name="btnAddEP" class="w3-button w3-block w3-blue w3-cell w3-round-large" style="width: 90%;">Adicionar Curso</button>
+                            <button name="btnAddCurExtras" class="w3-button w3-block w3-blue w3-cell w3-round-large" style="width: 90%;">Adicionar Curso</button>
                         </div>
                     </div>
         </form>
