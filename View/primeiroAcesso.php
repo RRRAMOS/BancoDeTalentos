@@ -12,6 +12,25 @@
 </head>
 
 <body>
+<form action="/Controller/navegacao.php" method="post" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin w3-display-middle" style="width: 30%;">
+     <h2 class="w3-center">Primeiro Acesso</h2>
+ 	<div class="w3-row w3-section">
+        <div class="w3-col" style="width:11%;">
+            <i class="w3-xxlarge fa fa-user"></i>
+        </div>
+        <div class="w3-rest">
+            <input class="w3-input w3-border w3-round-large" name="txtNome" type="text" placeholder="Nome Completo">
+        </div>
+	</div>
+    <div class="w3-row w3-section">
+        <div class="w3-col" style="width:11%;">
+            <i class="w3-xxlarge fa fa-drivers-license"></i>
+        </div>
+        <div class="w3-rest">
+            <input class="w3-input w3-border w3-round-large" name="txtCPF" type="text" placeholder="CPF: 33333333333">
+        </div>
+	</div>
+    <div class="w3-row w3-section">
     <div class="w3-col" style="width:11%;">
         <i class="w3-xxlarge fa fa-envelope-o"></i>
     </div>
