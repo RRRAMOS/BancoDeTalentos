@@ -1,3 +1,16 @@
+CREATE database bd_curriculos;
+
+use bd_curriculos;
+
+CREATE TABLE `usuario`(
+  `idUsuario` int(11) NOT NULL auto_increment,
+  `nome` varchar (150) NULL default NULL,
+  `cpf` varchar (11) NOT NULL,
+  `dataNascimento` DATE NULL default NULL,
+  `email` varchar (150) NULL default NULL,
+  `senha` varchar (45) NULL default NULL,
+  PRIMARY KEY (`idUsuario`)) ;
+
 CREATE TABLE `formacaoAcademica` (
   `idFormacaoAcademica` INT(11) NOT NULL AUTO_INCREMENT,
   `idUsuario` INT(11) NOT NULL,
