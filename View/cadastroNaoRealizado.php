@@ -10,7 +10,7 @@
 	<title>Falha</title>
 </head>
 <body>
-<form action="" method="post" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin w3-display-middle" style="width: 30%;">
+<form action="/Controller/navegacao.php" method="post" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin w3-display-middle" style="width: 30%;">
 	<input type="hidden" name="nome_form" value="frmLogin" />
 
 	<div class="w3-row w3-section">
