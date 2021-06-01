@@ -64,7 +64,7 @@
         <div>
             <h2 class="w3-text-cyan">Dados Pessoais</h2>
         </div>
-        <form action="" method="post" class=" w3-row w3-light-grey w3-text-blue w3-margin" style="width:70%;">
+        <form action="/Controller/Navegacao.php" method="post" class=" w3-row w3-light-grey w3-text-blue w3-margin" style="width:70%;">
             <input class="w3-input w3-border w3-round-large" name="txtID" type="hidden" value="">
             <div class="w3-row w3-section">
                 <div class="w3-col" style="width:11%;">
@@ -112,7 +112,7 @@
         <div>
             <h2 class="w3-text-cyan">Formação</h2>
         </div>
-        <form action="" method="post" class=" w3-row w3-light-grey w3-text-blue w3-margin" style="width: 70%;">
+        <form action="/Controller/Navegacao.php" method="post" class=" w3-row w3-light-grey w3-text-blue w3-margin" style="width: 70%;">
             <div class="w3-row w3-center">
                 <div class="w3-col" style="width:50%;">Data Inicial</div>
                 <div class="w3-res" style="">Data Final</div>
